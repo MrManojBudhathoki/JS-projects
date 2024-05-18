@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: lightblue;
+
+}
+
+
+
+#div{
+    border: solid 1px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#submit{
+    background-color: green;
+    color: white;
+    width: 110px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#submit:hover{
+    background-color: darkgreen;
+}
+
+
+#userNumber{
+    width: 200px;
+    height: 30px;
+}
